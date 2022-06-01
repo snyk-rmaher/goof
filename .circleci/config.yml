@@ -13,7 +13,7 @@ jobs: # a collection of steps
           command: ‘sudo npm install -g npm@latest’
       - run:
           name: install-snyk
-          command: ‘sudo npm install -g snyk’
+          command: sudo npm install -g snyk
       - run: # run snyk help - test snyk is installed and working
           name: snyk-help
           command: snyk --help
