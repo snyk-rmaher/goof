@@ -31,7 +31,7 @@ jobs:
         - uses: actions/upload-artifact@v3
           with:
              name: snyk-test-results
-             path: /home/runner/work/Test-Goof/Test-Goof/snyk-test.html
+             path: /home/runner/work/goof/goof/snyk-test.html
     
     snyk_code_test:
       permissions:
